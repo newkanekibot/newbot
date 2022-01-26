@@ -1,2 +1,2 @@
-worker: python3 -m aries
+worker: python3 -m kaneki
 ps:scale worker=1
