@@ -4,7 +4,7 @@ import re
 import requests
 from bs4 import BeautifulSoup as bs
 
-from aries.events import register
+from kaneki.events import register
 
 try:
     import aiofiles
