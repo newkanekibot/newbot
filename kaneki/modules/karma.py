@@ -1,4 +1,4 @@
-kanekiimport asyncio
+import asyncio
 import re
 
 from pyrogram import filters
