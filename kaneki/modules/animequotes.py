@@ -3,11 +3,11 @@ import requests
 import html
 import random
 import time
-from aries import dispatcher
-from aries.modules.disable import DisableAbleCommandHandler
+from kaneki import dispatcher
+from kaneki.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, CommandHandler, Filters, CallbackQueryHandler
-from aries.modules.helper_funcs.chat_status import is_user_admin
-from aries.modules.helper_funcs.extraction import extract_user
+from kaneki.modules.helper_funcs.chat_status import is_user_admin
+from kaneki.modules.helper_funcs.extraction import extract_user
 from telegram import (
     ParseMode,
     Update,
