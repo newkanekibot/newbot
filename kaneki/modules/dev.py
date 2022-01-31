@@ -8,8 +8,8 @@ from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler
 
-from aries import dispatcher
-from aries.modules.helper_funcs.chat_status import dev_plus
+from kaneki import dispatcher
+from kaneki.modules.helper_funcs.chat_status import dev_plus
 
 
 @dev_plus
