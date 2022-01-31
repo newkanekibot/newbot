@@ -271,7 +271,7 @@ async def inuka(client, message):
 @kaneki.on_message(
     filters.regex("Kaneki|kaneki|hi|hello|lol|bot")
     & ~filters.bot
-    & ~filters.via_botKaneki
+    & ~filters.via_bot
     & ~filters.forwarded
     & ~filters.reply
     & ~filters.channel
