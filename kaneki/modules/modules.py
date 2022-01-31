@@ -4,8 +4,8 @@ import importlib
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from ksneki import dispatcher, telethn
-from ksneki.__main__ import (
+from kaneki import dispatcher, telethn
+from kaneki.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
