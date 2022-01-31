@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler
 from telethon import events
 
-from aries import dispatcher, telethn
-from aries.modules.helper_funcs.chat_status import dev_plus
+from kaneki import dispatcher, telethn
+from kaneki.modules.helper_funcs.chat_status import dev_plus
 
 DEBUG_MODE = False
 
