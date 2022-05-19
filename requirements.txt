@@ -16,7 +16,7 @@ SQLAlchemy==1.4.31
 youtube_dl
 python-dotenv==0.19.2
 psycopg2-binary
-feedparser==6.0.8
+feedparser==6.0.9
 faker
 carbonnow
 validators
